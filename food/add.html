@@ -1,0 +1,279 @@
+{% extends "food/base.html"%}
+
+
+
+{% load static %}  <!-- if i need main.css,imag use -->
+
+{% block content %}  <!-- Load my code for this command -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add</title>
+    <!-- icon ar link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+
+res..{{res}}
+
+
+
+
+
+
+<h1 class="display-3 text-center my-4">sadia</h1>
+
+<div class="container">
+    <div class="clearfix">
+
+     <div class="bg-warning w-25 float-left">it is 25% place</div>
+    <div class="bg-warning w-25 float-left">it is 25% place</div>
+    <div class="bg-warning w-25 float-left">it is 75% place</div>
+        </div>
+
+</div>
+<br><br>
+
+<div style="height:300px; border:1px solid #333;">
+
+    <div class="bg-success h-25">height 25 nilo ai box ar </div>
+
+    <div class="bg-info h-25">height 25 nilo ai box ar </div>
+    <div class="bg-success h-25">height 25 nilo ai box ar </div>
+     <div class="bg-primary h-65">height 55 nilo ai box ar </div>
+
+</div>
+
+<h1 class="display-3 text-center my-4">button</h1>
+<button class="btn btn-info btn-lg" type="button">
+    <i class="fa fa-user"> user</i>
+
+</button>
+
+<button class="btn btn-info btn-lg" type="button">
+    <i class="fa fa-envelope"> email</i>
+
+</button><br><br>
+
+
+<!-- dropdown-->
+
+<div class="dropdown">
+
+    <button  class="btn btn-success dropdown-toggle" data-toggle="dropdown"  type="button"></button>
+
+     <div class="dropdown-menu">
+         <a class="dropdown-item" href="https://www.facebook.com/sojibbuet109"> hadi mama </a>
+         <a class="dropdown-item" href="https://www.facebook.com/jobairahmed.ash">ashik  mama </a>
+         <a class="dropdown-item" href="https://www.facebook.com/tanvirahmed.akib.712"> akib </a>
+         <a class="dropdown-item" href="#"> mina</a>
+     </div>
+
+</div>
+
+
+<br><br><br>
+
+
+<button class="btn btn-info btn-block btn-lg" type="button">
+    <i class="fa fa-envelope"> email block</i>
+
+</button>
+<br><br>
+
+<!-- navbar -->
+
+
+<nav class="navbar navbar navbar-light bg-warning navbar-expand-lg">
+
+    <div class="container">
+
+        <a class="navbar-brand" href="#">icon</a>
+
+        <img src="{% static 'image/icon.png' %}">
+
+         <ul class="navbar-nav">
+
+             <img src="{% static 'image/icon.png' %}">
+
+             <li class="nav-item">
+
+                 <a class="nav-link" href="#">home</a>
+             </li>
+
+              <li class="nav-item">
+
+                 <a class="nav-link" href="#">address</a>
+             </li>
+
+             <li class="nav-item">
+
+                 <a class="nav-link" href="#">parents</a>
+             </li>
+
+
+         </ul>
+
+    </div>
+</nav>
+
+<br><br><br>
+
+
+<!-- navbar icon -->
+<!-- navbar icon  jokhon pageta small korbo tokhn dekbo -->
+
+<nav class="navbar navbar navbar-light bg-info navbar-expand-md">
+
+    <div class="container">
+
+        <a class="navbar-brand" href="#">icon</a>
+
+        <img src="{% static 'image/icon.png' %}">
+
+        <!-- button & id  -->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#idx">
+
+               <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="idx">
+
+         <ul class="navbar-nav ml-auto">
+
+
+
+             <li class="nav-item">
+
+                 <a class="nav-link" href="#">home</a>
+             </li>
+
+              <li class="nav-item">
+
+                 <a class="nav-link" href="#">address</a>
+             </li>
+
+             <li class="nav-item">
+
+                 <a class="nav-link" href="#">parents</a>
+             </li>
+
+
+         </ul>
+
+            </div>
+
+    </div>
+</nav>
+
+<br><br><br>
+
+
+<!-- Navbar text is dark and background is light -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          Light color background
+      </a>
+    </nav>
+
+    <nav class="navbar navbar-light bg-warning">
+        <a class="navbar-brand" href="#">
+          Warning color background
+      </a>
+    </nav>
+
+    <!-- Navbar text is light and background is dark -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          Dark color background
+      </a>
+    </nav>
+
+    <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">
+          Primary color background
+      </a>
+    </nav>
+
+    <nav class="navbar navbar-dark bg-secondary">
+        <a class="navbar-brand" href="#">
+          Secondary color background
+      </a>
+    </nav>
+
+    <nav class="navbar navbar-dark bg-success">
+        <a class="navbar-brand" href="#">
+          Success color background
+      </a>
+    </nav>
+
+    <div class="container">
+        <h1 style="color: green">GeeksforGeeks</h1>
+        <b>
+          How to change navigation bar color in Bootstrap ?
+      </b>
+
+    </div>
+
+<br><br>
+
+<!-- link  -->
+<ul class="nav nav-pills justify-content-center">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">link 1</a>
+         <a class="nav-link " href="#">link 2</a>
+
+        <a class="nav-link " href="#">link 2</a>
+
+        <a class="nav-link " href="#">link 2</a>
+    </li>
+</ul>
+
+
+<ul class="nav nav-pills nav-fill ">
+
+    <li class="nav-item">
+        <a class="nav-link active" href="#">link 1</a>
+        </li>
+
+    <li class="nav-item">
+        <a class="nav-link " href="#">link 2</a></li>
+    <!-- link dropdown menu -->
+
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">link 2</a>
+        <div class="dropdown-menu bg-danger">
+            <a class="dropdown-item " href="#">link 2</a>
+
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item " href="#">link 2</a>
+
+             <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item " href="#">link 2</a>
+        </div>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link " href="#">link 2</a>
+    </li>
+</ul>
+
+<br><br><br>
+
+
+<!--#Employee and EmployeeForm .i use chart , add page,forms.py,models.py-->
+<!--start-->
+
+
+</body>
+
+</html>
+
+
+
+{% endblock %}

@@ -1,0 +1,130 @@
+
+{% load static %}
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{% static 'style.css'%}" type="text/css">
+
+    <title>health</title>
+
+    <style>
+        /* new chat app create style */
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+
+    </style>
+</head>
+<body>
+
+
+
+     <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <a class="navbar-brand" href="#">Food</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#Types">Types <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Symptoms">Symptoms   </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Diagnosis">Diagnosis  </a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.cancer.net/cancer-types/brain-tumor/types-treatment#:~:text=If%20there%20is%20visible%20tumor,by%20your%20health%20care%20team.">Treatment  </a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link" href="../chart/">chart  </a>
+      </li>
+
+         <li class="nav-item">
+        <a class="nav-link" href="../heath/">health  </a>
+      </li>
+
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+<div class="logo">
+
+
+           <a href="https://www.cmch-vellore.edu/">
+       <img src="{% static 'image/cmc.jpg' %}"></a>
+
+          <a href="../math/">
+               <img src="{% static 'image/orange.jpg' %}"></a>
+
+
+          <a href="https://www.youtube.com/watch?v=W2-Hey75y7U">
+          <img src="{% static 'image/apple.jpg '%}"> </a>
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

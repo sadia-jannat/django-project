@@ -1,0 +1,374 @@
+{% load static %}
+
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{% static 'style.css'%}" type="text/css">
+
+      <link rel="stylesheet" href="{% static 'style.css'%}">
+
+    <title>Brain Tumor</title>
+
+       <style>
+#myHeader {
+  padding: 10px;
+  text-align: center;
+  width:600px;
+}
+
+#my2
+{
+ color: black;
+  text-align: justify;
+ padding:1px
+
+
+}
+
+#sym{
+color: black;
+  text-align: center;
+}
+
+.card{
+border:5px solid black;
+}
+
+#dia{
+
+color: black;
+text-align:center;
+
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+
+
+
+</style>
+
+  </head>
+
+   <body id="bg"  style="background-image:url('{% static "image/brain.jpg" %}');" >
+
+
+  <!-- icon top -->
+
+<a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i> </a>
+
+
+     <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Brain Tumor</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#Types">Types <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Symptoms">Symptoms   </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Diagnosis">Diagnosis  </a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link" href="../teatment">Treatment  </a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link" href="../food/">Food  </a>
+      </li>
+
+        <li class="nav-item">
+        <a class="nav-link" href="../food/">Diagram</a>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          List doctors
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="http://www.whereindoctor.com/2018/08/neurosurgery-specialist-doctor-list-of.html">Bangladesh</a>
+          <a class="dropdown-item" href="https://www.spineandneurosurgeryhospitalindia.com/blog/top-10-brain-tumor-surgeons-in-india/">India</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://www.cmch-vellore.edu/">Suggestion</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+
+  <div class="row"> <!-- types block -->
+           <div class="col-md-6" style="margin:1rem auto 0 auto;">
+
+  <h1 id="myHeader">
+
+      <ul class="list-group list-group-flush">
+  <li class="list-group-item">Brain Tumor</li></ul>
+
+  </h1>
+           </div>
+      </div>
+
+
+
+
+
+      <div class="row"> <!-- types block -->
+           <div class="col-md-6" style="margin:5rem auto 0 auto;">
+
+               <p class="display-4" id="Brain Tumor" name="Brain Tumor"  style="text-align:center;">
+               <h1>Introduction</h1>
+               </p>
+
+                <h3 id="my2">
+
+               <ul class="list-group list-group-flush">
+  <li class="list-group-item"><p class="text-aline-justify">A brain tumor is a collection, or mass, of abnormal cells in your brain. Your skull, which encloses your brain, is very rigid. Any growth inside such a restricted space can cause problems. Brain tumors can be cancerous (malignant) or noncancerous (benign).</p>
+      <br>
+
+  <p>Brain tumors are categorized as primary or secondary. A primary brain tumor originates in your brain. Many primary brain tumors are benign. A secondary brain tumor, also known as a metastatic brain tumor, occurs when cancer cells spread to your brain from another organ, such as your lung or breast.</p>
+  </li>
+
+</ul>
+                </h3>
+
+           </div>
+      </div>
+
+
+
+<button class="btn btn-green btn-lg button1" type="button">
+    <i> <h3><p><a href="../brain/">top</a></p></h3></i>
+
+</button><br><br>
+
+
+
+      <div class="row"> <!-- types block -->
+           <div class="col-md-6" style="margin:5rem auto 0 auto;">
+
+               <p class="display-4" id="Types" name="Types"  style="text-align:center;">
+               <h1>Types of Brain Tumor</h1>
+               </p>
+
+
+
+
+  <ul class="list-group">
+      <li class="list-group-item"><h2>Primary brain tumor</h2></li>
+
+      <p>Primary brain tumors originate in your brain. They can develop from your:</p>
+
+
+      <li class="list-group-item list-group-item-primary"><h3>brain cells</h3></li>
+      <li class="list-group-item list-group-item-secondary"><h3>the membranes that surround your brain, which are called meninges</h3></li>
+      <li class="list-group-item list-group-item-success"><h3>nerve cells</h3></li>
+      <li class="list-group-item list-group-item-danger"><h3>glands</h3></li>
+
+
+</ul>
+
+               <p>  Primary tumors can be benign or cancerous. In adults, the most common types of brain tumors are gliomas and meningiomas.            </p>
+    
+               
+               <img src="https://prod-images-static.radiopaedia.org/images/30001497/d8098866119d81f9e87d2f27b286f9_big_gallery.jpeg">
+
+               <br>
+
+                 <ul class="list-group">
+      <li class="list-group-item"><h2>Gliomas Brain Tumor</h2></li>
+
+                     <p>Gliomas are tumors that develop from glial cells. These cells normally:</p>
+
+
+                     <li class="list-group-item list-group-item-primary"><h3>support the structure of your central nervous system</h3></li>
+                     <li class="list-group-item list-group-item-secondary"><h3>provide nutrition to your central nervous system</h3></li>
+                     <li class="list-group-item list-group-item-success"><h3>clean cellular waste</h3>
+</li>
+                     <li class="list-group-item list-group-item-danger"><h3>break down dead neurons</h3></li>
+
+
+</ul>
+
+<p>Gliomas can develop from different types of glial cells</p>
+
+               <img src="https://www.researchgate.net/profile/Abdul-Qayyum-23/publication/339743469/figure/fig1/AS:866068784488452@1583498297780/The-brain-tumor-dataset-sample-for-three-classes-a-glioma-b-meningioma-c.png">
+
+               <br>
+
+                <ul class="list-group">
+      <li class="list-group-item"><h2>Secondary brain tumor</h2></li>
+
+                    <p>Secondary brain tumors make up the majority of brain cancers. They start in one part of the body and spread, or metastasize, to the brain. The following can metastasize to the brain:</p>
+
+                    <li class="list-group-item list-group-item-primary"><h3>lung cancer</h3></li>
+                    <li class="list-group-item list-group-item-secondary"><h3>breast cancer</h3></li>
+                    <li class="list-group-item list-group-item-success"><h3>kidney cancer</h3>
+
+</li>
+                    <li class="list-group-item list-group-item-danger"><h3>skin cancer</h3></li>
+
+
+</ul>
+
+<img src="https://www.news-medical.net/image.axd?picture=2017%2F8%2FBrain_Cancer_Regions.jpg">
+
+               <br><br>
+           </div>
+      </div>
+
+
+
+<button class="btn btn-green btn-lg button1" type="button">
+    <i> <h3><p><a href="../brain/">top</a></p></h3></i>
+
+</button><br><br>
+
+
+
+         <!-- Symptoms -->
+
+
+               <p class="display-4" id="Symptoms" name="Symptoms"  style="text-align:center;">
+               <h1 id="sym">Symptoms</h1>
+
+
+   <div class="card">
+                   <div class="card-body"style="padding:60px">
+                        <img class="card-img-right" src="{% static "image/sym1.jpg" %}">
+                       <img class="card-img-right; margin-left:40px;" src="{% static "image/sym2.jpg" %}">
+<img class="card-img-right; margin-left:40px;" src="{% static "image/sym3.jpg" %}">
+                           <h2 class="card-title">What are the symptoms of a brain tumor?</h2>
+
+                       <p class="card-text"><h3 class="text-primary">Symptoms of brain tumors depend on the location and size of the tumor. Some tumors cause direct damage by invading brain tissue and some tumors cause pressure on the surrounding brain. You’ll have noticeable symptoms when a growing tumor is putting pressure on your brain tissue.</h3></p>
+<br>
+
+                       <p><h2>  The most common early warning symptoms and signs of brain tumors include:<br></h2>
+                         <br>
+                       <h3 class="text-info">
+<br>1.A new onset or change in pattern of headaches
+<br>2.Headaches in the morning
+<br>3.Headaches that gradually become more frequent and severe
+<br>4.Nausea and vomiting for no reason
+<br>5.Changes in speech, vision, or hearing
+<br>6.Problems balancing or walking
+                      <br>7. Changes in mood, personality, or ability to concentrate
+
+                      <br> 8.Problems with memory
+  <br> 9.Muscle jerking or twitching (seizures or convulsions)
+  <br> 10.Numbness or tingling in the arms or legs
+  <br> 11.Gradual loss of sensation or movement in an arm or a leg
+  <br> 12.Confusion in everyday matters
+  <br> 12.Personality or behavior changes
+          <br><br >Most often, these symptoms are not due to a brain tumor. Another health problem could cause them. If you have any of these symptoms, you should tell your doctor so that problems can be diagnosed and treated early before it has grown. Some people with brain tumors have seizures, especially in someone who does not have a history of seizures.<br>
+
+                   </h3></p>
+                       <br>
+
+
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</ul>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://www.healthline.com/health/brain-tumor#treatment" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+
+
+                   </div>
+   </div><br><br>
+
+
+
+<button class="btn btn-green btn-lg button1" type="button">
+    <i> <h3><p><a href="../brain/">top</a></p></h3></i>
+
+</button><br><br>
+
+
+
+   <!-- diagnosis -->
+
+            <p class="display-4" id="Diagnosis" name="Diagnosis"  style="text-align:center;">
+                   <h1 id="dia">Diagnosis</h1><br>
+           <h2 style="margin:50px" class="bg-warning"><p style="font-size:25px;font-family:georgia;background-color:lightseagreen;color:white;line-height:1cm;border-style:outset;border-color:teal;border-width:10px;text-aline:justify;margin:25px;padding:10px;">CT scan of the head</h2>
+              <h3><p style="margin:30px" class=" text-secondary;">A CT of the brain is a noninvasive diagnostic imaging procedure that uses special X-rays measurements to produce horizontal, or axial, images (often called slices) of the brain. Brain CT scans can provide more detailed information about brain tissue and brain structures than standard X-rays of the head, thus providing more data related to injuries and/or diseases of the brain.
+
+<br><br>During a brain CT, the X-ray beam moves in a circle around the body, allowing many different views of the brain. The X-ray information is sent to a computer that interprets the X-ray data and displays it in a two-dimensional (2D) form on a monitor.
+
+<br><br>Brain CT scans may be done with or without "contrast." Contrast refers to a substance taken by mouth or injected into an intravenous (IV) line that causes the particular organ or tissue under study to be seen more clearly. Contrast examinations may require you to fast for a certain period of time before the procedure. Your physician will notify you of this prior to the procedure.
+      CT scans are ways for your doctor get a more detailed scan of your body than they could with an X-ray machine. This can be done with or without contrast.</p>
+              </h3><br><hr>
+
+<br>
+  <img src="data:image/jpeg;base64,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">
+ <br>
+  <h2 style="margin:50px" class="bg-warning"><p style="font-size:25px;font-family:georgia;background-color:lightseagreen;color:white;line-height:1cm;border-style:dashed;border-color:teal;border-width:10px;text-aline:justify;margin:25px;padding:10px;">
+      MRI of the head</p></h2>
+  <h3><p style="margin:25px" class="text-secondary">Magnetic resonance imaging (MRI) of the head is a painless, noninvasive test that produces detailed images of your brain and brain stem. An MRI machine creates the images using a magnetic field and radio waves. This test is also known as a brain MRI or a cranial MRI. You will go to a hospital or radiology center to take a head MRI.
+
+<br><br>An MRI scan is different from a CT scan or an X-ray in that it doesn’t use radiation to produce images. An MRI scan combines images to create a 3-D picture of your internal structures, so it’s more effective than other scans at detecting abnormalities in small structures of the brain such as the pituitary gland and brain stem. Sometimes a contrast agent, or dye, can be given through an intravenous (IV) line to better visualize certain structures or abnormalities.</p>
+  </h3><br>
+  <hr>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQckY17Ae3MGeAiKtqO9zc7dRqd2nUdGz5D0g&usqp=CAU">
+  <br><hr>
+  <h2 style="margin:50px" class="bg-warning"><p style="font-size:25px;font-family:georgia;background-color:lightseagreen;color:white;line-height:1cm;border-style:dashed;border-color:teal;border-width:10px;text-aline:justify;margin:25px;padding:10px;">
+      Angiography</p></h2>
+  <h3><p style="margin:25px" class=" text-success">An angiogram is a diagnostic test that uses x-rays to take pictures of your blood vessels. A long flexible catheter is inserted through the blood stream to deliver dye (contrast agent) into the arteries making them visible on the x-ray. This test can help diagnose a stroke, aneurysm, arteriovenous malformation, tumor, clots, and arterial stenosis.
+  <br><br>
+  An angiogram works similar to an x-ray. The body casts a "shadow" on film when it is exposed to the x-ray, much like when you hold a flashlight up to your hand and cast a shadow on a wall. Normally your blood vessels cannot be seen in an x-ray, but adding a dye (contrast agent) into the blood stream makes your arteries and veins visible (Fig. 1). Contrast agent contains iodine, a substance that x-rays cannot pass through.
+  </h3></p>
+<br><hr>
+
+  
+  <h2 style="margin:50px" class="bg-warning"><p style="font-size:25px;font-family:georgia;background-color:lightseagreen;color:white;line-height:1cm;border-style:outset;border-color:teal;border-width:10px;text-aline:justify;margin:25px;padding:10px;">
+      Skull X-rays</p></h2>
+ <h3><p style="margin:25px" class="text-secondary">Brain tumors can cause breaks or fractures in the bones of the skull, and specific X-rays can show if this has occurred. These X-rays can also pick up calcium deposits, which are sometimes contained within a tumor. Calcium deposits may be in your bloodstream if your cancer has moved to your bones.</p>
+ </h3><br><hr>
+  <h2 style="margin:50px" class="bg-warning"><p style="font-size:25px;font-family:georgia;background-color:lightseagreen;color:white;line-height:1cm;border-style:teal;border-color:teal;border-width:10px;text-aline:justify;margin:25px;padding:10px;">Biopsy</p></h2>
+ <h3> <p style="margin:25px" class="text-primary"> A small piece of the tumor is obtained during a biopsy. A specialist called a neuropathologist will examine it. The biopsy will identify if the tumor cells are benign or malignant. It will also determine whether the cancer originated in your brain or another part of your body.</p>
+
+ </h3><br>
+
+
+
+<button class="btn btn-green btn-lg button1" type="button">
+    <i> <h3><p><a href="../brain/">Top</a></p></h3></i>
+
+</button><br><br>
+
+
+
+
+  <p class="text-info"><h6 class="fixed-bottom text-info mr-5">now we want see the brain</h6></p>
+
+
+
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

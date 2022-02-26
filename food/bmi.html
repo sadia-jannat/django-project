@@ -1,0 +1,50 @@
+{% extends "food/base.html"%}
+
+
+{% block content %}
+
+
+{% load static %}
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bmi calculate page</title>
+
+     <style>
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+
+</style>
+
+
+</head>
+
+<body style="background-color:tomato;">
+
+
+<p>Use CSS to style an element with the id "myHeader":
+    <h1>check an important <a href="https://en.wikipedia.org/wiki/Brain_tumor">brain tumor</a> disease</h1> it is dangerouse
+</p>
+
+<h1 id="myHeader">My Header</h1>
+
+
+   <p style="color:blue"> <h1> bmi calculate start</h1>.</p>
+   <img id="a"  src="{% static 'image/img1.jpg' %}" alt="Trulli" width="500" height="333">
+   <a  href="https://www.facebook.com/sojibbuet109"></a>
+
+    <img src="{% static 'image/img2.jpg' %}" alt="Trulli" width="500" height="333">
+    <img src="{% static 'image/img3.jpg' %}" alt="Trulli" width="500" height="333">
+    <img src="{% static 'image/img4.jpg' %}" alt="Trulli" width="500" height="333">
+
+</body>
+</html>
+
+{% endblock content %}
