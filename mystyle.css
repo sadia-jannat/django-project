@@ -1,0 +1,35 @@
+ #part1{
+background-image:url('{% static "image/tree.jpg" %}');
+height:400px;
+background-repeat: no-repeat;
+}
+
+#b{
+color:black;
+text-align:center;
+}
+
+#part2{
+background-image:url('{% static "image/brain.jpg" %}');
+background-attachment:fixed;
+background-position:right;
+background-repeat: no-repeat;
+height:400px;
+}
+#b2{
+color:black;
+text-align:left;
+}
+
+  #part3{
+background-image:url('{% static "image/tree.jpg" %}');
+height:600px;
+}
+#b3{
+color:black;
+text-align:center;
+}
+
+
+
+
